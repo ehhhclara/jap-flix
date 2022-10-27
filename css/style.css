@@ -1,0 +1,61 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+.unchecked{
+    color: white;
+}
+.title{
+    color: white;
+    font-size: 20px;
+    font-weight:500;
+    text-decoration:none;
+}
+#tagline{
+    color:grey;
+    font-style: italic;
+    margin-left: 2%;
+}
+#canvatitle{
+    margin-bottom: 15px;
+}
+.elementolista{
+box-sizing: content-box;
+margin-left: 10%;
+width: 80%;
+border: solid black 1px;
+}
+
+.dropdown{
+    text-align: right;
+}
+#botonmasinformacion{
+    float: right;
+}
+#offcanvasTop{
+    height: 50%;
+}
